@@ -9,10 +9,14 @@ header{
     background-color: lightblue;
 }
 
-.container{
+.principale{
     height: 4rem;
+}
+
+.container{
     margin: 0 auto;
     width: 70%;
+    max-width: 70%;
 }
 
 .flex{
@@ -28,8 +32,6 @@ div.logo, nav.link, div.login{
 }
 
 .link{
-    justify-content: center;
-    align-items: center;
     width: 75%;
 }
 
@@ -58,7 +60,7 @@ div.login{
     margin-right: 1rem;
 }
 
-.main-photo{
+.main-pic{
     background-color: blue;
     height: 40rem;
 }
@@ -70,12 +72,15 @@ div.login{
     border-style: dotted;
 }
 
-
+.first{
+    height: 35rem;
+}
 
 div.pic1{
+    
     height: 30rem;
     width: 60rem;
-    background-color: #1E90FF;
+    background-color:#1E90FF;
     border-style: dotted;
 }
 
@@ -86,6 +91,10 @@ div.text1{
     border-style: dotted;
 }
 
+.second{
+    height: 40rem;
+    background-color: lightgrey;
+}
 
 div.pic2{
     height: 30rem;
@@ -97,16 +106,6 @@ div.pic2{
 div.text2{
     height: 30rem;
     width: 60rem;
-    background-color: #1E90FF;
+    background-color:#1E90FF;
     border-style: dotted;
-}
-
-.due{
-    background-color: lightgray;
-    height: 36rem;
-}
-
-.box{
-    height: 30rem;
-    background-color: forestgreen;
 }
