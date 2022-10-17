@@ -36,7 +36,7 @@ header ul>li{
 div.logo{
     justify-content: left;
     width: 12.5%;
-    margin-left: 10rem;
+    margin-left: 15rem;
 }
 
 .logo p{
@@ -46,9 +46,20 @@ div.logo{
 div.login{
     justify-content: right;
     width: 12.5%;
-    margin-right: 10rem;
+    margin-right: 16rem;
 }
 
 .login p{
     margin-right: 1rem;
+}
+
+.main-photo{
+    background-color: blue;
+    height: 40rem;
+}
+
+.main-text{
+    background-color: #EE82EE;
+    height: 30rem;
+    width: 65rem;
 }
