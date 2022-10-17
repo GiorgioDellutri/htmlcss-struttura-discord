@@ -67,7 +67,8 @@ div.login{
 
 .container{
     height: 36rem;
-    margin: 0 16rem;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
 div.pic1{
@@ -102,7 +103,6 @@ div.text2{
 .due{
     background-color: lightgray;
     height: 36rem;
-
 }
 
 .box{
