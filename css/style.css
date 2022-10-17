@@ -46,7 +46,7 @@ div.logo{
 div.login{
     justify-content: right;
     width: 12.5%;
-    margin-right: 16rem;
+    margin-right: 15rem;
 }
 
 .login p{
@@ -62,4 +62,27 @@ div.login{
     background-color: #EE82EE;
     height: 30rem;
     width: 65rem;
+    border-style: dotted;
+}
+
+.content{
+    height: 36rem;
+}
+
+div.pic{
+    height: 30rem;
+    width: 60rem;
+    background-color: #1E90FF;
+    border-style: dotted;
+}
+
+div.text{
+    height: 30rem;
+    width: 40em;
+    background-color: lightpink;
+    border-style: dotted;
+}
+
+.content{
+    margin: 0 16rem;
 }
