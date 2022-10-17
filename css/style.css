@@ -130,4 +130,28 @@ div.text3{
     background-color: forestgreen;
     height: 50rem;
     width: 70%;
+    border-style: dotted;
+}
+
+.info{
+    height: 60rem;
+    background-color: #23272A;
+}
+
+.pink{
+    height: 55rem;
+    width: 30%;
+    background-color: #F08080;
+    border-style: dotted;
+}
+
+.magenta{
+    height: 55rem;
+    width: 10%;
+    background-color: #20B2AA;
+    border-style: dotted;
+}
+
+.pink, .magenta{
+    margin-bottom: 1rem;
 }
