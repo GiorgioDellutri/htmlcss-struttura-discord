@@ -9,6 +9,12 @@ header{
     background-color: lightblue;
 }
 
+.container{
+    height: 4rem;
+    margin: 0 auto;
+    width: 70%;
+}
+
 .flex{
     display: flex;
     justify-content: center;
@@ -36,7 +42,6 @@ header ul>li{
 div.logo{
     justify-content: left;
     width: 12.5%;
-    margin-left: 16rem;
 }
 
 .logo p{
@@ -46,7 +51,7 @@ div.logo{
 div.login{
     justify-content: right;
     width: 12.5%;
-    margin-right: 16rem;
+
 }
 
 .login p{
@@ -65,11 +70,7 @@ div.login{
     border-style: dotted;
 }
 
-.container{
-    height: 36rem;
-    margin: 0 auto;
-    max-width: 70%;
-}
+
 
 div.pic1{
     height: 30rem;
