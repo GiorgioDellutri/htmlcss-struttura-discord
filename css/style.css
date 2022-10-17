@@ -13,7 +13,7 @@ header{
     height: 4rem;
 }
 
-.flex{
+.flexbox{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,24 +134,45 @@ div.text3{
 }
 
 .info{
-    height: 50rem;
+    height: 45rem;
     background-color: #23272A;
 }
 
 .pink{
-    height: 45rem;
+    height: 40rem;
     width: 30%;
     background-color: #F08080;
     border-style: dotted;
 }
 
 .magenta{
-    height: 45rem;
+    height: 40rem;
     width: 10%;
     background-color: #20B2AA;
     border-style: dotted;
 }
 
 .pink, .magenta{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.register-box{
+    display: flex;
+    align-items: flex-end;
+    background-color:#23272A;
+    height: 5rem;
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 3rem;
+    width: 70%;
+    background-color: #7FFFD4;
+}
+
+div.register>p{
+    margin: 1rem;
 }
