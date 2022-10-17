@@ -36,7 +36,7 @@ header ul>li{
 div.logo{
     justify-content: left;
     width: 12.5%;
-    margin-left: 15rem;
+    margin-left: 16rem;
 }
 
 .logo p{
@@ -46,7 +46,7 @@ div.logo{
 div.login{
     justify-content: right;
     width: 12.5%;
-    margin-right: 15rem;
+    margin-right: 16rem;
 }
 
 .login p{
@@ -65,24 +65,47 @@ div.login{
     border-style: dotted;
 }
 
-.content{
+.container{
     height: 36rem;
+    margin: 0 16rem;
 }
 
-div.pic{
+div.pic1{
     height: 30rem;
     width: 60rem;
     background-color: #1E90FF;
     border-style: dotted;
 }
 
-div.text{
+div.text1{
     height: 30rem;
     width: 40em;
     background-color: lightpink;
     border-style: dotted;
 }
 
-.content{
-    margin: 0 16rem;
+
+div.pic2{
+    height: 30rem;
+    width: 40em;
+    background-color: lightpink;
+    border-style: dotted;
+}
+
+div.text2{
+    height: 30rem;
+    width: 60rem;
+    background-color: #1E90FF;
+    border-style: dotted;
+}
+
+.due{
+    background-color: lightgray;
+    height: 36rem;
+
+}
+
+.box{
+    height: 30rem;
+    background-color: forestgreen;
 }
