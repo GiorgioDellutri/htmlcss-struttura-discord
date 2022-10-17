@@ -13,12 +13,6 @@ header{
     height: 4rem;
 }
 
-.container{
-    margin: 0 auto;
-    width: 70%;
-    max-width: 70%;
-}
-
 .flex{
     display: flex;
     justify-content: center;
@@ -31,8 +25,8 @@ div.logo, nav.link, div.login{
     border-style: dotted;
 }
 
-.link{
-    width: 75%;
+nav.link{
+    width: 40%;
 }
 
 header ul>li{
@@ -43,7 +37,7 @@ header ul>li{
 
 div.logo{
     justify-content: left;
-    width: 12.5%;
+    width: 15%;
 }
 
 .logo p{
@@ -52,7 +46,7 @@ div.logo{
 
 div.login{
     justify-content: right;
-    width: 12.5%;
+    width: 15%;
 
 }
 
@@ -77,35 +71,63 @@ div.login{
 }
 
 div.pic1{
-    
     height: 30rem;
-    width: 60rem;
+    width: 40%;
     background-color:#1E90FF;
     border-style: dotted;
 }
 
 div.text1{
     height: 30rem;
-    width: 40em;
+    width: 30%;
     background-color: lightpink;
     border-style: dotted;
 }
 
 .second{
-    height: 40rem;
+    height: 35rem;
     background-color: lightgrey;
 }
 
 div.pic2{
     height: 30rem;
-    width: 40em;
+    width: 30%;
     background-color: lightpink;
     border-style: dotted;
 }
 
 div.text2{
     height: 30rem;
-    width: 60rem;
+    width: 40%;
     background-color:#1E90FF;
     border-style: dotted;
+}
+
+.tirth{
+    height: 35rem;
+}
+
+div.pic3{
+    height: 30rem;
+    width: 40%;
+    background-color:#1E90FF;
+    border-style: dotted;
+}
+
+div.text3{
+    height: 30rem;
+    width: 30%;
+    background-color: lightpink;
+    border-style: dotted;
+}
+
+.end-pic{
+    height: 55rem;
+    background-color: lightgrey;
+}
+
+.green{
+    background-color: forestgreen;
+    height: 50rem;
+    width: 70%;
 }
